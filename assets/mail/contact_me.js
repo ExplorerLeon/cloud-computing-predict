@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  --------
-                url: "https://gihizc9xn0.execute-api.eu-west-1.amazonaws.com",
+                url: "https://gihizc9xn0.execute-api.eu-west-1.amazonaws.com/lsmithPredictFunction_v2",
                 // ------------------------------------------------------
                 type: "POST",
                 data: JSON.stringify(json),
